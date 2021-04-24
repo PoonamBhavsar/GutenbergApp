@@ -47,8 +47,6 @@ export class BooksComponent implements OnInit {
         this.books = [];
         this.loader = false;
         this.getFilterbooks(data);
-
-        console.log(data['results'].length);
       }
 
     },
