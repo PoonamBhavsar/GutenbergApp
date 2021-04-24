@@ -1,0 +1,38 @@
+<div class="mt-5 ms-5 ps-5">
+  <div style="padding: 0 245px !important;">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <a href="javascript:void(0)" (click)=back()>
+          <img src="/assets/images/Back.svg" height="30" width="30"></a>
+        <li class="breadcrumb-item blue bold font30 active ms-3" style="margin-top: -7px;" aria-current="page">
+          {{category}}</li>
+      </ol>
+    </nav>
+    <div>
+      <div>
+        <a href="javascript:void(0)">
+          <img src="/assets/images/Search.svg" class="search mt-1" height="30" width="30"></a>
+        <input class="textBox" placeholder="Search" (input)="search($event)">
+      </div>
+    </div>
+
+  </div>
+</div>
+<div *ngIf="blnError" class="text-center">
+  <span class="font20  blue">{{strMessage}}</span>
+</div>
+<div *ngIf="!blnError" class="background1">
+  <div *ngIf="loader" class="loader"></div>
+
+  <div class="row card1">
+    <div class="col-md-2" *ngFor="let book of books">
+      <div class=""><a href="javascript:void(0)" (click)="bookDetails(book['link'])">
+          <img class="bookcard" src="{{book['bookPic']}}"></a>
+        <div class="regular black font12 ps-2 mt-2" style="font-weight: 800;">{{book['bookTitle']}}</div>
+        <div class="regular grey font12 ps-2 mt-2">{{book['bookAuthur']}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="search-results" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50"
+  (scrolled)="onScroll()"></div>

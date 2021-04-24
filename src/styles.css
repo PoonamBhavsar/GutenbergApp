@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face{
+    font-family: 'black';
+    src:url("assets/font/Montserrat-Black.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'BlackItalic';
+    src:url("assets/font/Montserrat-BlackItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'bold';
+    src:url("assets/font/Montserrat-Bold.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'boldItlaic';
+    src:url("assets/font/Montserrat-BoldItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'extraBold';
+    src:url("assets/font/Montserrat-ExtraBold.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'extraBoldItalaic';
+    src:url("assets/font/Montserrat-ExtraBoldItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'extraLight';
+    src:url("assets/font/Montserrat-ExtraLight.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'extraLightItalic';
+    src:url("assets/font/Montserrat-ExtraLightItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'medium';
+    src:url("assets/font/Montserrat-Medium.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'mediumItalic';
+    src:url("assets/font/Montserrat-MediumItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'regular' !important;
+    src:url("assets/font/Montserrat-Regular.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'semiBold' !important;
+    src:url("assets/font/Montserrat-SemiBold.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'semiBoldItalic';
+    src:url("assets/font/Montserrat-SemiBoldItalic.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'thin';
+    src:url("assets/font/Montserrat-Thin.ttf") format('truetype')
+}
+@font-face{
+    font-family: 'thinItalic';
+    src:url("assets/font/Montserrat-ThinItalic.ttf") format('truetype')
+}
+
+.blue{
+    color: #5E56E7 !important;
+}
+
+.white{
+    color: #F8F7FF !important;
+}
+
+.grey-light{
+    color:hsl(240, 25%, 95%) !important;
+}
+
+.grey{
+    color:#A0A0A0 !important;
+}
+
+.black{
+    color:#333333 !important;
+}
+
+.font12{
+    font-size: 12px !important;
+}
+
+.font16{
+    font-size: 16px !important;
+}
+
+.font20{
+    font-size: 20px !important;
+}
+.font30{
+    font-size: 30px !important;
+}
+.font48{
+    font-size: 48px !important;
+}
+
+.generecard{
+    border-radius : 4px;
+    padding  : 0px 10px 0px 10px ;
+    height : 50px;
+    box-shadow : 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    width: 20rem;
+}
+
+.textBox{
+    border-radius : 4px !important;
+    padding  : 0px 10px 0px 10px ;
+    height : 40px;
+    width: 53rem;
+    margin-bottom: 24px;
+    background-color: #F0F0F6;
+    border: none !important;
+}
+
+.bookcard{
+    width: 114px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);        
+}
+.text-center{
+    text-align: center !important;
+}
+
+.marTB32{
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+}
