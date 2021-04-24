@@ -1,0 +1,32 @@
+{
+    "cards":[
+        {
+            "name": "FICTION",
+            "image":"Fiction.svg"
+        },
+        {
+            "name": "PHILOSOPHY",
+            "image":"Philosophy.svg"
+        },
+        {
+            "name": "DRAMA",
+            "image":"Drama.svg"
+        },
+        {
+            "name": "HISTORY",
+            "image":"History.svg"
+        },
+        {
+            "name": "HUMOUR",
+            "image":"Humour.svg"
+        },
+        {
+            "name": "Adventure",
+            "image":"Adventure.svg"
+        },
+        {
+            "name": "POLITICS",
+            "image":"Politics.svg"
+        }
+    ]
+}
