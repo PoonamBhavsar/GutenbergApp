@@ -14,15 +14,15 @@ export class GeneralService {
     constructor(private httpClient : HttpClient){}
 
     getGenere(){
-        let url="/assets/json/genere.json"
-        if(environment.production=true){
-            url = this.baseurl+url
-            return this.httpClient.get(url)
-        }
-        else{
+        let url="./assets/json/genere.json"
+        // if(environment.production=true){
+        //     url = this.baseurl+url
+        //     return this.httpClient.get(url)
+        // }
+        // else{
             return this.httpClient.get(url)
 
-        }
+       // }
         
        
     }

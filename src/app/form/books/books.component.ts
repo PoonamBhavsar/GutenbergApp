@@ -78,7 +78,7 @@ export class BooksComponent implements OnInit {
         imageObj = book['formats']['image/jpeg'];
       }
       else {
-        imageObj = "/assets/images/emptyBook.jpg"
+        imageObj = "./assets/images/emptyBook.jpg"
       }
 
 
