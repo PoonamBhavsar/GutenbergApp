@@ -9,12 +9,22 @@ import { environment } from "src/environments/environment.prod";
 
 export class GeneralService {
 
+    private baseurl=environment.livebaseurl;
+
     constructor(private httpClient : HttpClient){}
 
     getGenere(){
-        let url="../assets/json/genere.json"
-        return this.httpClient.get(url)
+        let url="/assets/json/genere.json"
+        if(environment.production=true){
+            url = this.baseurl+url
+            return this.httpClient.get(url)
+        }
+        else{
+            return this.httpClient.get(url)
 
+        }
+        
+       
     }
 
     getSearchResult(url){
