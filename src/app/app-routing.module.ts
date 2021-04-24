@@ -7,11 +7,11 @@ import { HomeComponent } from './form/home/home.component';
 const routes: Routes = [
 
   {
-    path:"GutenbergApp",
+    path:"/",
     component:HomeComponent
   },
   {
-    path:"GutenbergApp/books",
+    path:"books",
     component:BooksComponent
   },
   {

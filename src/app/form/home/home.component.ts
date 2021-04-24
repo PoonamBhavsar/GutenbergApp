@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
     this.blnBook = true;
     this.category = gener;
 
-    this.router.navigate(["/GutenbergApp/books"], { state: { category: this.category } })
+    this.router.navigate(["/books"], { state: { category: this.category } })
 
   }
 
