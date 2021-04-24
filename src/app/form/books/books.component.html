@@ -1,5 +1,5 @@
-<div class="mt-5 ms-5 ps-5">
-  <div style="padding: 0 245px !important;">
+<div class="display mt-5 ms-5 ps-5">
+  <div class="header">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <a href="javascript:void(0)" (click)=back()>
@@ -25,7 +25,7 @@
   <div *ngIf="loader" class="loader"></div>
 
   <div class="row card1">
-    <div class="col-md-2" *ngFor="let book of books">
+    <div class="col-12 col-sm-12 col-md-2" *ngFor="let book of books">
       <div class=""><a href="javascript:void(0)" (click)="bookDetails(book['link'])">
           <img class="bookcard" src="{{book['bookPic']}}"></a>
         <div class="regular black font12 ps-2 mt-2" style="font-weight: 800;">{{book['bookTitle']}}</div>

@@ -18,7 +18,15 @@
 }
 
 .card{
-    padding: 32px 348px 32px 356px;
+    /* padding: 32px 348px 32px 356px; */
+    padding: 30px 29px 23px 40px;
     display: -webkit-inline-box;
     background-color:#F8F7FF;
+}
+@media (min-width:882px) {
+    .card{
+        padding: 32px 348px 32px 356px;
+        display: -webkit-inline-box;
+        background-color:#F8F7FF;
+    }
 }

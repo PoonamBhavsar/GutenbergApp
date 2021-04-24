@@ -1,11 +1,14 @@
 .card1{
-    padding: 32px 348px 32px 356px;
+    /* padding: 32px 348px 32px 356px; */
+    padding: 30px 0px 23px 120px;
     display: -webkit-inline-box;
 }
 .background1{
     background-color:#F8F7FF;
 }
-
+.header{
+  padding: 0 25px !important;
+}
 
   @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -44,4 +47,19 @@
 
   input{
     padding-left: 35px;
+}
+
+.display{
+  display: flex;
+  position: relative;
+}
+@media (min-width:1380px) {
+  .card1{
+      padding: 32px 348px 32px 356px;
+      display: -webkit-inline-box;
+      background-color:#F8F7FF;
+  }
+  .header{
+    padding: 0 245px !important;
+  }
 }
